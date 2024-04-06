@@ -1,0 +1,31 @@
+{
+  "name": "my-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --modern",
+    "test:Page": "vue serve ./src/components/Page/test.vue"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "core-js": "^3.8.3",
+    "highlight.js": "^11.9.0",
+    "mock": "^0.1.1",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "querystring": "^0.2.1",
+    "test:Page": "vue serve ./src/components/Page/main.js",
+    "vue": "^2.6.14",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "webpack-bundle-analyzer": "^4.10.1"
+  }
+}
